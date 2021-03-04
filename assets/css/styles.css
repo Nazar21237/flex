@@ -1,0 +1,21 @@
+.flex-container{
+    border: 10px solid black;
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-end; */
+    /* align-content: stretch; */
+    /* justify-content: stretch; */
+    flex-wrap: wrap;
+    height: 70vh;
+}
+.flex-item{
+    
+    width: 50px;
+    padding: 10px 5px;
+    background-color: teal;
+    border: 5px solid red;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
